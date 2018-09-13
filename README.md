@@ -4,11 +4,11 @@ kata sur la relance de facture. Inspiré du "birthday greetings" kata
 # But
 Votre entreprise gère ses factures avec un vieil applicatif Legacy exposant du Soap.
 
-Il vous est demandé de faire une appication à coté, pour gérer la relace de paiement des factures.
+Il vous est demandé de faire une application à coté, pour gérer la relace de paiement des factures.
 
 L'application Legacy vous permet de retrouver les factures non payées. Il n'est pas possible de filtrer. 
 
-Vous devez implémenter un programme permettant de charger les données de facturation, et qui pourra notifier les débiteur qu'ils ont une facture à payer.
+Vous devez implémenter un programme permettant de charger les données de facturation, et qui pourra notifier les débiteurs qu'ils ont une facture à payer.
 
 
 # Description des données
@@ -36,11 +36,11 @@ le "price" est le prix, en centime d'euros.
 
 # Règles métier
 
-* 10 jours avanrt la date d'échéance d'une facture, le débiteur est notifié par un mail pour le prévenir de la date d'échéance.
+* 10 jours avant la date d'échéance d'une facture, le débiteur est notifié par un mail pour le prévenir de la date d'échéance.
 
-* une fois la date d'échéance passée, si la facture n'est toujours pas payée, on le relance chaque mois au même jours.
+* une fois la date d'échéance passée, si la facture n'est toujours pas payée, on le relance chaque mois au même jour.
 
-* Règle spéciale: Si le même jours n'existe pas (ex: le 31 pour certains mois), on notifie le dernier jours du mois (par exemples le 30, ou le 28/29 pour février).
+* Règle spéciale: Si le même jour n'existe pas (ex: le 31 pour certains mois), on notifie le dernier jour du mois (par exemple le 30, ou le 28/29 pour février).
 
 
 
